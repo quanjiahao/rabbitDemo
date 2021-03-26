@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/producer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springbottproducer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

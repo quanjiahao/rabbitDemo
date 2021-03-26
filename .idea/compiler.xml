@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="producer" />
+        <module name="springbootconsumer" />
+        <module name="springbottproducer" />
+        <module name="consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
+      <module name="producer" target="1.8" />
+      <module name="spring_consumer" target="1.8" />
+      <module name="spring_producer" target="1.8" />
+      <module name="springbootconsumer" target="1.8" />
+      <module name="springbootproducer" target="1.5" />
+      <module name="springbottproducer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbootconsumer" options="-parameters" />
+      <module name="springbottproducer" options="-parameters" />
+    </option>
+  </component>
+</project>
